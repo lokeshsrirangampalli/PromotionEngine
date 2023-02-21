@@ -1,0 +1,10 @@
+name: Building the application
+on:
+  push:
+jobs:
+  build:
+    name: "Building the application"
+    runs-on: "ubuntu-latest"
+    steps:
+      - run: echo "Hello World"
+ 
